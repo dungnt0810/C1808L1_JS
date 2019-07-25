@@ -633,6 +633,34 @@ ul, ol {
     border-right: 1px solid #E4E7ED;
 }
 
+/* About */
+#about .card{
+    background-color: transparent;
+    border: none;
+}
+
+#about .user-img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    overflow: hidden;
+
+}
+#about img{
+    height: inherit;
+    width: inherit;
+}
+
+#about .card-title{
+    color: #ff140a;
+    font-size: 24px;
+    font-family:'Myriad Pro';
+}
+
+
 /*FOOTER*/
 
 #footer {
